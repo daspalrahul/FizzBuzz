@@ -15,4 +15,12 @@ public class FizzBuzzTest {
         assertEquals(true, number.outputAnswerString() instanceof String);
     }
 
+    @Test
+    public void fizzbuzzOneShouldReturnBlah() {
+        FizzBuzz number = new FizzBuzz(1);
+
+        String actualResult = number.outputAnswerString();
+        assertEquals("Blah",actualResult);
+    }
+    
 }

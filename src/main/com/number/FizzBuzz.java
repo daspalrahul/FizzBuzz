@@ -11,6 +11,6 @@ public class FizzBuzz {
 
 
     public String outputAnswerString() {
-        return "";
+        return "Blah";
     }
 }
