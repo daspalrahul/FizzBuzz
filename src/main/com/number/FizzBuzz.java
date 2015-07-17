@@ -11,6 +11,8 @@ public class FizzBuzz {
 
 
     public String outputAnswerString() {
+        if(value == 3)
+            return "Fizz";
         return "Blah";
     }
 }

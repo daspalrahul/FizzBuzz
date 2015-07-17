@@ -22,5 +22,13 @@ public class FizzBuzzTest {
         String actualResult = number.outputAnswerString();
         assertEquals("Blah",actualResult);
     }
-    
+
+    @Test
+    public void fizzbuzzThreeShouldReturnFizz() {
+        FizzBuzz number = new FizzBuzz(3);
+
+        String actualResult = number.outputAnswerString();
+        assertEquals("Fizz",actualResult);
+    }
+
 }
