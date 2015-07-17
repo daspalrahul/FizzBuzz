@@ -55,5 +55,13 @@ public class FizzBuzzTest {
         assertEquals("Buzz",actualResult);
     }
 
+    @Test
+    public void fizzbuzzFifteenShouldReturnBuzz() {
+        FizzBuzz number = new FizzBuzz(15);
+
+        String actualResult = number.outputAnswerString();
+        assertEquals("FizzBuzz",actualResult);
+    }
+
 
 }
